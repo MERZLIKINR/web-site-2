@@ -4,7 +4,8 @@ header {
     align-items: center;
     width: 100%;
     height: 8vh;
-    background-color: #fff;
+    background-color: #fff0;
+    position: absolute;
 }
 
 #list {
@@ -23,17 +24,17 @@ header {
 .list-link {
     text-decoration: none;
     text-transform: uppercase;
-    color: #202020;
+    color: #ffffff;
 }
 
 #prev {
     width: 100%;
-    height: 740px;
+    height: 100vh;
 }
 
 #img-girl {
     width: 100%;
-    height: 650px;
+    height: 100vh;
     background-size: cover;
     background-position: center center;
 }
@@ -45,9 +46,14 @@ header {
     font-weight: 600;
     margin: 0;
     position: absolute; 
-    top: 30%;
+    top: 35%;
     left: 12%;
     mix-blend-mode: overlay;
     color: aliceblue;
     letter-spacing: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: aquamarine;
+
 }
